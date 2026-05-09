@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald",sans-serif;
+    box-sizing: border-box;
+    font-weight: 400;
+    color: #5d5d7d;
+}
+
+.wrapper{
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: space-between;
+}
+
+.container-left{
+    width: 60%;
+    height: 100vh;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    padding: 86px;
+}
+.container-left h1{
+    font-size: 70px;
+    line-height: 80px;
+    width: 368px;
+} 
+
+.container-left p{
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 0.6;
+    width: 540px;
+    padding: 10px 0px;
+}
+
+.container-left button{
+    width: 269px;
+    height: 62px;
+    font-size: 24px;
+    line-height: 36%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #9499ea;
+    box-shadow: 0px 10px 24px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+button:active{
+    opacity: .5;
+}
+
+.container-right{
+    background-color: rgb(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+}
+
+.imagem{
+    width: 400px;
+    height: 480px;
+    position: relative;
+    top: 12%;
+    right: 122px;
+}
+
+a{
+    font-size: 28px;
+    line-height: 41px;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2){
+    opacity: 0.4;
+}
+
+a:hover{
+    opacity: 0.4;
+}
+a:active{
+    opacity: 0.8;
+}
+
+header{
+    margin: 24px 0px 0px 57px;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .wrapper{
+    display: block;
+}
+    
+    .container-left{
+        width: 100%;
+        height: 50%;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+    }
+    
+    .container-left h1{
+        position: absolute;
+        top: 5%;
+        left: 26%;
+    }
+
+    .container-left p{
+        position: absolute;
+        top: 35%;
+        left: 15%;
+    }
+
+    .container-left button{
+        position: absolute;
+        top: 80%;
+        left: 35%;
+    }
+    .menu-superior{
+        display: none;
+    }
+
+
+    .container-right{
+        width: 100%;
+        height: 50%;
+        position: relative;
+    }
+
+    .imagem{
+        position: absolute;
+        top: 10%;
+        left: 20%;
+    }
+
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media screen and (max-width: 900px) {
+  
+  
+    .wrapper{
+    display: block;
+    
+}  
+
+.container-left{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 50%;
+
+}
+ 
+.container-right{
+    height: auto;
+    width: 100%;
+    position: static;
+    padding: 40px;    
+}   
+
+.imagem{
+    position: static;
+    max-width: 90%;
+}
+
+header{
+    display: none;
+}
+
+.container-left h1{
+    font-size: 36px;
+    line-height: 52px;
+    width: auto;
+    margin: 40px;
+    text-align: center;
+} 
+
+.container-left p{
+    margin: 15px 30pxs;
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+
+.container-left button{
+    margin: 0px auto;
+    display: block;
+}
+
+}
+ 
+
+
+
+
+
+
+
+ .wrapper{
+     display: block;
+    
+}
+
+.container-left{
+    width: 100vw;
+    height: 50%;
+    margin-left: 0px;
+    padding: 24px;
+    display: block;
+}
+.container-left h1{
+    font-size: 36px;
+    line-height: 52px;
+    width: auto;
+    border: 3px solid #5d5d7d;
+} 
+
+.container-left p{
+    font-size: 14px;
+    line-height: 24px;
+    width: 240px;
+    
+    
+}
+
+.container-left button{
+    margin: 0 auto;
+    width: 200px;
+    height: 45px;
+}
+
+.container-right{
+    background-color: rgb(93, 93, 125, 0.16);
+    height: 50%;
+    width: 100vh;
+}
+
+.imagem{
+    width: 400px;
+    height: 480px;
+    position: relative;
+    top: 12%;
+    right: 122px;
+}
+
+a{
+    font-size: 28px;
+    line-height: 41px;
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2){
+    opacity: 0.4;
+}
+
+a:hover{
+    opacity: 0.4;
+}
+a:active{
+    opacity: 0.8;
+}
+
+header{
+    margin: 24px 0px 0px 57px;
+}
+*/
